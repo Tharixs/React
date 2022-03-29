@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -61,6 +62,9 @@ const Navbar = () => {
                 Diary
               </a>
             </li>
+            <button id="btnSignIn" type="button" class="btn btn-secondary">
+              Sign In
+            </button>
           </ul>
         </div>
       </div>
